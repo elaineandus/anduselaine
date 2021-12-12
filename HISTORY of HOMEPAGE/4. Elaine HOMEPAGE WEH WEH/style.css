@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url(img/background3.jpeg) center/cover no-repeat fixed; /* #222831; */
+}
+header a{
+    color: #ffffff;
+}
+.navbar{
+    background: #111111;
+    padding: 1.2rem;
+}
+.nav-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+}
+.navbar-brand:hover{
+    color: #F05454;
+}
+.navbar-nav a{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: #F05454;
+    transform: scale(1.1);
+}
+.navbar-toggler {
+    padding: 0.3rem;
+}
+.fa-bars{
+    color: #fff;
+}
+.heading h2{
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+.heading p{
+    padding: 1rem 4rem 2rem 4rem;
+    margin: 0;
+    text-align: justify;
+}
+.content{
+    padding: 4rem 4rem 4rem 4rem;
+}
+footer{
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+.socmed-links{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1.4rem;
+}
+.socmed-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.socmed-links a:hover{
+    transform: scale(1.2);
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.679);
+}
+.search-input{
+    height: 30px;
+    background-color: #353b48;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.search-btn{
+    width: 40px;
+    font-size: 1.1rem;
+    border: #fff;
+    background: transparent;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+    padding: 0;
+    text-align: left;
+}
+.carousel{
+    margin: 0 1rem 0 1rem;
+}

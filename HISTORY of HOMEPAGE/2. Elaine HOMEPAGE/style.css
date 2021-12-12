@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+body{
+	background:  #d9d9d9;
+}
+.navbar{
+    padding: 1rem;
+}
+.navbar-dark .navbar-brand{
+    font-size: 24px;    
+    letter-spacing: 1px;
+	color: rgba(255, 255, 255, 0.741);
+}
+.navbar-toggler {
+    padding: 0.3rem;
+}
+.navbar-nav .ms-auto .sect {
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1.5rem 0.2rem 0.1rem;
+}
+form{
+	margin-right: 1rem;
+}
+.sect {
+	color: rgba(255, 255, 255, 0.741);
+	text-decoration: none;
+	padding: 0.3rem;
+	margin-right: 1rem;
+	margin-left: 0;
+	border-radius: 10px;
+	letter-spacing: 1px;
+}
+.sect:hover {
+    color: coral;
+}

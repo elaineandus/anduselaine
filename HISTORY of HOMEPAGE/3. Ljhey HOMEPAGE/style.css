@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background:  #d9d9d9;
+}
+.navbar{
+    padding: 1rem;
+}
+.navbar-dark .navbar-brand{
+    font-size: 24px;    
+    letter-spacing: 1px;
+	color: rgba(255, 255, 255, 0.741);	
+}
+.navbar-toggler {
+    padding: 0.3rem;
+}
+.navbar-nav .ms-auto .sect {
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1.5rem 0.2rem 0.1rem;
+}
+form{
+	margin-right: 1rem;
+}
+.search-btn:hover{
+	color: #ff8566;
+	transform: scale(1.1);
+}
+.sect {
+	color: rgba(255, 255, 255, 0.741);
+	text-decoration: none;
+	padding: 0.3rem;
+	margin-right: 1rem;
+	margin-left: 0;
+	border-radius: 10px;
+	letter-spacing: 1px;
+}
+.sect:hover {
+    color: #ff8566;
+}
+
+footer{
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top:520px;
+}
+.socmed-links{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1.4rem;
+}
+.socmed-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.socmed-links a:hover{
+    transform: scale(1.2);
+}

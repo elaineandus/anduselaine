@@ -1,0 +1,639 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.arrow{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+.arrow a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    border-radius: 4px;
+}
+.arrow a span{
+    color: #f2f2f2;
+    font-size: 25px;
+    line-height: 39px;
+    cursor: pointer;
+}
+.navbar{
+    padding: 1.2rem;
+}
+.navbar-brand{
+    font-size: 24px;    
+    letter-spacing: 1px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1.5rem 0.2rem 0.1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: crimson;
+    transform: scale(1.1);
+}
+.navbar-toggler {
+    padding: 0.3rem;
+}
+.fa-bars{
+    color: rgb(255, 255, 255);
+}
+header{
+    min-height: 100vh;
+    background: url(img/bg.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.banner-title{
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+    text-transform: uppercase;
+    animation: bannertitle 0.7s linear 1;
+}
+.container .banner-title span{
+    color: crimson;
+}
+.banner{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+@keyframes bannertitle {
+	0%{
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+.banner p{
+    padding: 1rem 0 0.9rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 200;
+    word-spacing: 2px;
+    animation: bannertitle 0.7s linear forwards 1;
+	animation-delay: 0.7s;
+}
+.banner .container .button{
+    width: 120px;
+    padding: 8px 20px;
+    background-color: #111111;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.banner .container .button:hover {
+    color: white;
+    background: none;
+    transform: scale(1.1);
+}
+  
+.banner .container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+} 
+
+/*----- ABOUT SECTION -----*/
+.section-a {
+    background-color: #111111;
+    min-height: 100vh;  
+    width: 100%; 
+}
+.section-a .heading h1{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.aboutpage img {
+    height: auto;
+    width: 40%;
+    border-radius: 8.5%;
+    margin: 0 3rem;
+}
+.aboutcontent {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.textbox {
+    width:100%;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.textbox h1 {
+    font-size: 2rem;
+    color: crimson;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.textbox p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.fa-facebook-messenger{
+    color: #fff;
+}
+.aboutpage .aboutcontent button {
+    width: 156px;
+    padding: 10px 20px;
+    background-color: #111111;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.aboutpage .aboutcontent button:hover {
+    background-color:#191919;
+}
+.aboutpage .aboutcontent button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+} 
+
+/*----- SKILL SECTION -----*/
+.section-b{
+    background:#111111;
+}
+.section-b .heading h1{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.skillpage{
+    min-height: 70vh;
+}
+.skillbars{
+	padding: 5px 10px;
+	width: 85vw;
+	background: none;
+	border-radius: 20px;
+    margin: 0 auto;
+}
+.skillbars .bar{
+	margin: 20px 0;
+	margin-top: 10px;
+}
+.skillbars .bar .container{
+	margin-bottom: 10px;
+}
+.skillbars .bar .container span{
+	font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+    100%{
+      opacity: 1;
+    }
+}
+.skillbars .bar .barline{
+	height: 10px;
+	width: 100%;
+	background: #ffffff;
+	position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+	border-radius: 10px;
+	box-shadow: inset 0 1px 1px rgba(85, 9, 9, 0.05)gba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+}
+.bar .barline span{
+	height: 100%;
+	position: absolute;
+    border-radius: 70px;
+    transform: scaleX(0);
+    transform-origin: left;
+	background: rgb(223, 27, 66);
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .barline.html span{
+	width: 70%;
+}
+.bar .barline.css span{
+	width: 65%;
+}
+.bar .barline.python span{
+	width: 40%;
+}
+.bar .barline.c span{
+	width: 60%;
+}
+.bar .barline.cplusplus span{
+	width: 29%;
+}
+.bar .barline.java span{
+	width: 32%;
+}
+.progress-line span::before{
+	position: absolute;
+	content: "";
+	top: -10px;
+	right: 0;
+	height: 0;
+	width: 0;
+	border: 7px solid transparent;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-color: #000;
+	opacity: 0;
+	animation: showText2 0.5s 1.5s linear forwards;
+} 
+.barline span::after{
+	position: absolute;
+	top: -28px;
+	right: 0;
+	font-weight: 500;
+	background: #000;
+	color: #fff;
+	padding: 1px 8px;
+	font-size: 12px;
+}
+.barline.html span::after{
+	content: "70%";
+}
+.barline.css span::after{
+	content: "65%";
+}
+.barline.python span::after{
+	content: "40%";
+}
+.barline.c span::after{
+	content: "60%";
+}
+.barline.cplusplus span::after{
+	content: "29%";
+}
+.barline.java span::after{
+	content: "32%";
+}
+span{
+    color: #fff;
+}
+
+/*----- PROJECT SECTION -----*/
+.section-c{
+    background:#111111;
+}
+.section-c .heading h1{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.projectpage{
+    min-height: 100vh;
+}
+.project{
+    background: linear-gradient(rgba(214, 9, 9, 0),rgba(0, 0, 0, 0.3));
+    justify-content: center;
+    min-height: auto;
+    padding: 1rem;
+    width: 23vw;  
+    height: auto;
+    text-align: center;
+    background: rgba(0, 0,0, 0);
+    box-shadow: 0 0 1px 1px #fff;
+    border-radius: 15px;
+    line-height: 1rem;
+}
+.projects-content{
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project h2{
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+}
+#projectimg{
+    align-items: center;
+    width: 20vw;
+    height: 10rem;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+.cta {
+    display: inline-block;
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.cta:hover {
+    color: white;
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+/*----- CONTACT SECTION -----*/
+.section-d{
+    background: url(img/typing.jpg) center/cover no-repeat fixed;
+	background-size: cover;
+	color:rgb(255, 255, 255);
+}
+.section-d .heading h1{
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.contactpage{
+    min-height: 80vh;
+}
+.firstcont{
+    margin-right: 2rem;
+    width: 35vw;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.contact-head label{
+    padding-bottom: 10px;
+}
+.form-floating{
+    color: #2b2a2aa8;
+}
+.floatingInput.form-control{
+    width: auto;
+}
+#mycontacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    color: white;
+    background-color: #191919;
+    border: 1px solid rgba(255, 255, 255, 0.254);
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 30px;
+    width: 105px;
+}
+.button:hover{
+    color: white;
+    background-color:#313030a8;
+}
+.secondcont{
+    margin-left: 3rem;
+    padding: 2rem;
+    width: 30vw;
+    height: auto;
+    background-color:  rgba(0,0,0,.5);
+    border-radius: 10px;
+    line-height: 1.5rem;
+}
+.wrapper{
+	display: grid;
+	grid-auto-rows: minmax(70px, auto);
+	grid-gap: 5px;
+	line-height: 1.5;
+}
+.lineone{
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+.linetwo{ 
+    grid-column:4;
+    grid-row: 1 / 2;
+    padding-left:20px;
+}
+.linethree{
+    grid-column: 4/3;
+    grid-row: 2 / 3;
+    text-align: center;
+    padding-top: 7px;
+}
+.linefour{
+    grid-column: 4;
+    grid-row: 2/3;
+    padding-left:20px;
+    padding-top: 7px;
+}
+.linefive{
+    grid-column: 3;
+    grid-row: 3/4;
+    text-align: center;
+}
+.linesix{
+ 	grid-column: 4/6;
+    grid-row: 3/3;
+    padding-left:20px;
+}
+.linesix p a {
+    text-decoration: none;
+    color: #fff;
+}
+.linesix p a:hover {
+    color: crimson;
+}
+
+/*----- FOOTER SECTION -----*/
+footer{
+    background-color:rgb(10, 9, 9);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+.social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.social-links a:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width:320){
+    /*----- CONTACT SECTION -----*/
+    .linesix{
+        font-size: 0.1rem;
+    }
+    #projectimg{
+        width: 12rem;
+    }  
+}
+
+@media only screen and (max-width: 375px) {
+    /*----- ABOUT SECTION -----*/
+    .aboutpage .aboutcontent .textbox h1 {
+        font-size: 3rem;
+    }
+    #projectimg{
+        width: 14rem;
+    }  
+}   
+
+@media only screen and (max-width:400px){
+    /*----- CONTACT SECTION -----*/
+    .secondcont{    
+        padding: 1.5rem;   
+    }
+}
+
+@media only screen and (max-width:430px){
+    /*----- CONTACT SECTION -----*/
+    .wrapper{
+        font-size: smaller;
+    }
+    .wrapper h4{
+        font-size: smaller;
+    }  
+    #projectimg{
+        width: 16rem;
+    }
+}
+
+@media only screen and (max-width:700px){
+    /*----- ABOUT SECTION -----*/
+    .aboutpage .aboutcontent .textbox{
+        width:100%;
+        text-align: center;
+    }
+    .aboutpage .aboutcontent .textbox img{
+        width:100%;
+    }
+    .aboutpage .aboutcontent{
+        flex-direction: column;
+    } 
+    .aboutpage .aboutcontent img {
+        width: 80%;
+    }
+    .textbox h1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    /*----- ABOUT SECTION -----*/
+    .aboutpage .aboutcontent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutpage .aboutcontent .textbox {
+        padding-bottom: 2rem;
+    }
+    .aboutpage .aboutcontent .textbox h1 {
+        padding: 2rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width:850px){
+    /*----- PROJECT SECTION -----*/
+    .projects-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        margin: 2rem;
+        width: 70vw;
+        height: auto;
+    }
+    #projectimg{
+        height: 100%;
+        width: 100%;
+    }
+    /*----- CONTACT SECTION -----*/
+    #mycontacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstcont{
+        margin: 2rem;
+        width: 60vw;
+        padding: 2rem;
+    }
+    .secondcont{
+        margin: 2rem;
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    /*----- ABOUT SECTION -----*/
+    .main .textbox {
+        width: 70%;
+    }
+    .main .textbox h1 {
+        font-size: 3.5rem;
+        letter-spacing: 0.1rem;
+    }
+    .main .textbox h5 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    /*----- CONTACT SECTION -----*/
+    .firstcont{
+        height: auto;
+        padding: 2rem;
+    }
+}
+
