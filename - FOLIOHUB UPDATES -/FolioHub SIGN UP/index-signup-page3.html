@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FolioHub | SIGN UP PAGE 2</title>
+	<title>FolioHub | SIGN UP PAGE 3</title>
 	<link rel="icon" href="img/foliohub-logo.png">
 
 	<link rel="stylesheet" href="style-signup-page.css">
@@ -21,33 +21,25 @@
 
 		<div class="signup-content">
 			<form>
-                <h2>Continue...</h2>
-				<div class="wrap-two">
-					<label>Email</label>
-					<input type="text">
-				</div>
-				<div class="wrap-two">
-					<label>Username</label>
-					<input type="text">
+                <div class="wrap-two">
+					<label for="fileField"><img src="img/profile icon.jpg" id="photo"></label>
+					<input type="file" id="fileField" name="file" accept="image/*">
+					<p>Click on image to upload user icon</p>
 				</div>
                 <div class="wrap-two">
-					<label>Password</label>
-					<input type="text">
-				</div>
-                <div class="wrap-two">
-					<label>Confirm Password</label>
-					<input type="text">
+					<label>Biography</label>
+					<textarea type="text" class="form-control"></textarea>
 				</div>
 
 				<div class="for-buttons">
-					<button class="button-cancel">Cancel</button>
-					<button	button class="button-next">Next</button>
+					<a type="button" class="button-next" href="index-signup-page3.html">Submit</a></button>
+
+					<a type="button" class="button-cancel" href="index-signup-page3.html">Cancel</a></button>
 				</div>
 
               <p>Already have an account? <a class="for-signin" href="#">Sign In</a></p>
 			</form>
         </div>
     </div>
-
 </body>
 </html>
