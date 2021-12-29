@@ -7,10 +7,7 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-
 body{
-  /* background: #678983;
-  background-image: linear-gradient(to right,#181D31,#678983); */
   background: #092756;
   background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
   background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
@@ -80,7 +77,7 @@ nav .content .links{
   color: #333;
 }
 .for-join{
-  background-color: /* #678983; */ #2d66d198;
+  background-color: #2d66d198;
 }
 .search-icon, .menu-icon{
   color: #fff;
@@ -165,7 +162,7 @@ nav .content .links{
   display: flex;
   flex-wrap: wrap;
 }
-.content-container .namedev{
+.content-container .dev-name{
   color: #E6DDC4;
   animation: h3 1s linear 1;
   animation-delay: 0.4s;
