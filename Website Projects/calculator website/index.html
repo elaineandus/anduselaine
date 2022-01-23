@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculateIt</title>
+    <link rel="icon" href="img/w.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Goblin+One&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Ranchers&family=Slackey&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body> 
+    <!-- header -->
+    <header>
+        <div class = "head-top">
+            <div class = "site-name">CalculateIt
+            </div>
+            <div class = "nav-section">
+                <button class="pindutan">ANDUS</button>
+            </div>
+        </div>
+
+        <div class = "head-bottom flex">
+            
+        </div>
+    </header>
+    <!-- <h1 class="project-title">CalculateIt</h1> -->
+<div class="wrap">
+    <table class = "calculator" >
+        <tr>
+        <td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+        <!-- clearScreen() function clear all the values -->
+        <td> <input class = "button" type = "button" value = "AC" onclick = "clearScreen()" style = "background-color: #fb0004;" /> </td> <!-- #fb0066 -->
+        </tr>
+        <tr>
+        <!-- display() function display the value of clicked button -->
+        <td> <input class = "button" type = "button" value = "1" onclick = "display('1')" /> </td>
+        <td> <input class = "button" type = "button" value = "2" onclick = "display('2')" /> </td>
+        <td> <input class = "button" type = "button" value = "3" onclick = "display('3')" /> </td>
+        <td> <input class = "button" type = "button" value = "/" onclick = "display('/')" style = "background-color: rgb(44, 44, 44);" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "4" onclick = "display('4')" /> </td>
+        <td> <input class = "button" type = "button" value = "5" onclick = "display('5')" /> </td>
+        <td> <input class = "button" type = "button" value = "6" onclick = "display('6')" /> </td>
+        <td> <input class = "button" type = "button" value = "-" onclick = "display('-')" style = "background-color: rgb(44, 44, 44);" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "7" onclick = "display('7')" /> </td>
+        <td> <input class = "button" type = "button" value = "8" onclick = "display('8')" /> </td>
+        <td> <input class = "button" type = "button" value = "9" onclick = "display('9')" /> </td>
+        <td> <input class = "button" type = "button" value = "+" onclick = "display('+')" style = "background-color: rgb(44, 44, 44);" /> </td>
+        </tr>
+        <tr>
+        <td> <input class = "button" type = "button" value = "." onclick = "display('.')" /> </td>
+        <td> <input class = "button" type = "button" value = "0" onclick = "display('0')" /> </td>
+        <!-- calculate() function evaluate the mathematical expression -->
+        <td> <input class = "button" type = "button" value = "=" onclick = "calculate()" style = "background-color: #fb2e00;" /> </td> <!--  #fb0066  -->
+        <td> <input class = "button" type = "button" value = "*" onclick = "display('*')" style = "background-color: rgb(44, 44, 44);" /> </td>
+        </tr>
+        </table>
+    </div>
+
+ <!-- <h2 class="project-description">
+    CalculateIt by Elaine S. Andus is always available when you need it.
+</h2> -->
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
