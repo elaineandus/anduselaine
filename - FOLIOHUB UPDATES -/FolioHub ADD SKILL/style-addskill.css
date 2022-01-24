@@ -87,7 +87,7 @@ input{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-.button-cancel, .button-next{
+.button-cancel, .button-submit{
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -111,10 +111,10 @@ input{
 .button-cancel:hover{
 	background-position: right;
 }
-.button-next{
+.button-submit{
 	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
 }
-.button-next:hover{
+.button-submit:hover{
 	background-position: right;
 }
 
