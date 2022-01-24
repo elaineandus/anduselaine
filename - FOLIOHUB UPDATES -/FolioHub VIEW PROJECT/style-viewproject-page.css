@@ -46,16 +46,12 @@ html,body{
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .portrait{
   max-width: 50%;
-  max-height: 100%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  place-content: center;
-  place-items: center;
+  max-height: 100vh;
+  margin-left: 25%;
 }
 .slider .card .content{
   padding: 10px 20px;
