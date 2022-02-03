@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRY TRY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+
+  <!----------------- HEADER SECTION ----------------->
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Andus Website</a>
+              <div class="navbar-nav">
+                <a href="#aboutsection">About</a>
+                <a href="#skillsection">Skill</a>
+                <a href="#projectsection">Project</a>
+                <a href="#contactsection">Contact</a>
+              </div>
+
+              <div class="sociallinks">
+                <a href="https://www.facebook.com/GmElaineAndus"><i class="fa fa-facebook-square fa-lg"></i> </a>
+        
+                <a href="https://www.instagram.com/elaine_andus/"><i class="fa fa-instagram fa-lg"></i> </a>
+        
+                <a href="https://twitter.com/elaine_andus"><i class="fa fa-twitter fa-lg"></i> </a>
+        
+                <a href="https://www.youtube.com/channel/UC-nUIKhxoW5eI3w9zJzDeyQ"><i class="fa fa-youtube fa-lg"></i> </a>
+              </div>
+
+        </div>
+      </div>
+      <div class="banner">
+        <div class="container">
+          <h1 class="banner-title">Welcome</h1>
+          <p>This is an online porfolio of Elaine S. Andus. It is a collection of my work samples and evidence of works that I've done. It also includes information about myself, how to contact me, and the illustration of my skills and abilities.</p>
+
+          <a class="explore" href="#aboutsection">Explore</a>
+        </div>
+      </div>
+    </header>
+  <!------------- END OF HEADER SECTION ------------->
+
+
+  <!--------------- ABOUT SECTION ---------->
+
+	<section class="section section-a" id="aboutsection">
+        <div class="container">
+          <h1>ABOUT ME</h1>
+		  <img src="myself.jpg">
+          <p>
+			Hi! I'm Elaine S. Andus, 20 years of age, born at Bauang, La Union, lives at 511 Camia St. Old Sta. Mesa, Manila, and is currently studying Bachelor of Science in Computer Science at Technological University of the Philippines.
+		<br>
+		<br>
+			I've always wanted to make web applications and websites because I'm fascinated by all the elements of web development. Hopefully, if I'm fortunate enough, I would like to have an opportunity to work on projects with like-minded individuals someday. And, ultimately, my goal is not to be better than anyone else, but to be better than I used to be.</p>
+        </div>
+      </section>
+
+  <!--------------- SKILL SECTION --------------->	
+
+  <section class="section section-b" id="skillsection">
+    <h1>SKILLS</h1>
+
+
+</section>
+  
+</body>
+</html>

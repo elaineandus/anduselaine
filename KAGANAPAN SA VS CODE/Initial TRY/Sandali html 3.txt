@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andus Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+
+  <!----------------- HEADER SECTION ----------------->
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Andus Website</a>
+              <div class="navbar-nav">
+                <a href="#aboutsection">About</a>
+                <a href="#skillsection">Skill</a>
+                <a href="#projectsection">Project</a>
+                <a href="#contactsection">Contact</a>
+              </div>
+
+              <div class="sociallinks">
+                <a href="https://www.facebook.com/GmElaineAndus"><i class="fa fa-facebook-square fa-lg"></i> </a>
+        
+                <a href="https://www.instagram.com/elaine_andus/"><i class="fa fa-instagram fa-lg"></i> </a>
+        
+                <a href="https://twitter.com/elaine_andus"><i class="fa fa-twitter fa-lg"></i> </a>
+        
+                <a href="https://www.youtube.com/channel/UC-nUIKhxoW5eI3w9zJzDeyQ"><i class="fa fa-youtube fa-lg"></i> </a>
+              </div>
+
+        </div>
+      </div>
+      <div class="banner">
+        <div class="container">
+          <h1 class="banner-title">Welcome</h1>
+          <p>This is an online porfolio of Elaine S. Andus. It is a collection of my work samples and evidence of works that I've done. It also includes information about myself, how to contact me, and the illustration of my skills and abilities.</p>
+
+          <a class="explore" href="#aboutsection">Explore</a>
+        </div>
+      </div>
+    </header>
+  <!------------- END OF HEADER SECTION ------------->
+
+
+  <!--------------- ABOUT SECTION ---------->
+
+	<section class="section section-a" id="aboutsection">
+        <div class="container">
+          <h1>ABOUT ME</h1>
+		  <img src="img/myself.jpg">
+          <p>
+			Hi! I'm Elaine S. Andus, 20 years of age, born at Bauang, La Union, lives at 511 Camia St. Old Sta. Mesa, Manila, and is currently studying Bachelor of Science in Computer Science at Technological University of the Philippines.
+		<br>
+		<br>
+			I've always wanted to make web applications and websites because I'm fascinated by all the elements of web development. Hopefully, if I'm fortunate enough, I would like to have an opportunity to work on projects with like-minded individuals someday. And, ultimately, my goal is not to be better than anyone else, but to be better than I used to be.</p>
+        </div>
+      </section>
+
+  <!--------------- SKILL SECTION --------------->	
+
+  <section class="section section-b" id="skillsection">
+    <h1>SKILLS</h1>
+
+    <div class="skillbars">
+      <div class="bar">
+        <div class="container">
+          <span>HTML</span>
+        </div>
+        <div class="barline html">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="bar">
+        <div class="container">
+          <span>CSS</span>
+        </div>
+        <div class="barline css">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="bar">
+        <div class="container">
+          <span>C</span>
+        </div>
+        <div class="barline c">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="bar">
+        <div class="container">
+          <span>C++</span>
+        </div>
+        <div class="barline cplusplus">
+          <span></span>
+        </div>
+      </div>
+
+      <div class="bar">
+        <div class="container">
+          <span>JAVA</span>
+        </div>
+        <div class="barline java">
+          <span></span>
+        </div>
+      </div>
+    
+    </div>
+
+  </section>
+  
+ <!--------------- PROJECT SECTION --------------->	
+
+   <section class="section section-c" id="projectsection">
+    <div class="contproject">
+      <h1>PROJECTS</h1><br>
+    </div>
+
+    <div class="projects-content">
+		
+      <div class="project">
+        <div class="spans"><a>CPU Scheduling Techniques <br> Simulation Program</a></div>
+        <img src="img/cpu scheduling.PNG" alt="project1">
+      </div>
+      <div class="project">
+        <div class="spans"><a>Banking Management<br>System Program</a></div>
+        <img src="img/banking system.PNG" alt="project4">
+      </div>
+      <div class="project">
+        <div class="spans"><a>Computer Networks <br>Inventory Program</a></div>
+        <img src="img/inventory.PNG" alt="project3">
+      </div>
+      <div class="project">
+        <div class="spans"><a>BPI TechVoc Front-End<br>Web Dev Training Webpage<br></a></div>
+        <img src="img/BPI techvoc webpage.PNG" alt="project5">
+      </div>
+      <div class="project">
+        <div class="spans"><a>U-Attend: Attendance <br>Management System<br>Program</a></div>
+        <img src="img/uattend.PNG" alt="project5">
+      </div>
+      <div class="project">
+        <div class="spans"><a>Encryption vs Hashing <br>YouTube Video</a></div>
+        <img src="img/hashingencrypt.jpeg" alt="project5">
+      </div>
+
+   </section>
+ 
+ <!--------------- CONTACT SECTION --------------->	
+
+  <section class="section section-d" id="contactsection">
+    <div class="contcontact">
+      <h1>CONTACT</h1>
+
+      <div class="contactbox">
+          <form class="form">
+
+      <div class="contactboxinside">
+
+          <div class="contact-head">
+          <label>Get in Touch</label><br>
+          </div>
+
+        <div class="contactinput">
+          <i class="fa fa-user"></i>
+          <input type="text" class="contactcenter" name="name" placeholder="Name">
+        </div>
+
+        <div class="contactinput">
+          <i class="fa fa-envelope"></i>
+          <input type="text" class="contactcenter" name="email" placeholder="Email">
+        </div>
+
+        <div class="contactinput">
+          <textarea class="contactcenter" placeholder="Message" cols="22" rows="5"></textarea>
+        </div>
+
+        <div class="bottom-contact">
+          <button class="contactsubmit" type="submit">Submit</button>
+        </div>
+    </div>
+  </div> 
+</div>
+
+<div class="boxdetails">
+				
+  <div class="secondboxcontent">
+    <div class="wrapper">
+      <div class="lineone">
+        <br>
+        <i class="fa fa-map-marker"></i>
+      </div>
+      <div class="linetwo"> 
+        <br>
+        <h3>Location</h3>
+        <p>511 Camia St. Old Sta. Mesa, Manila
+        </p>
+          <p>Philippines, 1016
+        </p>
+      </div>
+      <div class="linethree">
+        <i class="fa fa-phone"></i>
+      </div>
+      <div class="linefour">
+      <h3>Let's Talk</h3>
+      <p>+639-5632-61493
+      </p>
+    </div>
+      <div class="linefive">
+        <i class="fa fa-envelope-o"></i>
+      </div>
+      <div class="linesix">
+        <h3>Email Me</h3>
+      <p>elaineandus30@gmail.com
+      </p>
+     </div>
+    </div>	
+  </div>
+  </div>
+</section>
+
+ <!--------------- FOOTER SECTION --------------->	
+
+ <footer>
+  <div>
+    <h5>Copyright &copy;2021 Andus Portfolio | All Rights Reserved</h5>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#aboutsection">About</a></li>
+      <li><a href="#skillsection">Skill</a></li>
+      <li><a href="#projectsection">Project</a></li>
+      <li><a href="#contactsection">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

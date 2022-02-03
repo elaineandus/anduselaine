@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    font-size: 32px;
+    color: #fff;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+.text-primary {
+    color: #fff;
+}
+
+#navbar{
+ 
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #fff;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+
+}
+#navbar li a:hover{
+    background-color: #3693ff;
+    ;
+
+}
+#showcase{
+    background-image: url(./imgs/me1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh; 
+    width: 120vw;   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0,0.5);
+    height: 1200px;
+    color: #fff;
+
+}
+.main h1{
+    font-size: 28px;
+}
+.main .btn{
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+}
+.main .btn:hover{
+    background: #3693ff;
+    color: #fff;
+}
+.btn{
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5%;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+#aboutme{
+    
+    color: #333;
+    padding: 5rem 0;
+  
+}
+#aboutme h3{
+    text-align: center;
+    
+    font-size: 3rem;
+    margin-bottom: 3rem;
+   
+}
+#aboutme p.lead{
+    margin-bottom: 2rem;
+}
+#aboutme .about-content{
+    display: flex;
+}
+#aboutme .about-text,
+#aboutme .about-image{
+    flex: 1;
+}
+#aboutme .about-text{
+    text-align: center;
+}
+#aboutme .about-image img{
+    display: block;
+    margin-left: auto;
+    width: 90%;
+    border-radius: 30%;
+    margin-top: 70px;
+   
+}
+#main-footer{
+    color: black;
+}
+#contact {
+    background-image: url(./imgs/me5.jpg);
+    padding: 5rem 0;
+}
+#contact h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+#contact h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+    margin-top: 5rem;
+}
+#contact .form-box{
+    background: dimgrey;
+    background-position: center;
+    padding: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    border-radius: 10px;
+    max-width: 800px;
+
+}
+#contact .form-group label{
+    display: block;
+    margin-bottom: 0.5;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+
+}
+#contact .form-group input,
+#contact .form-group textarea{
+    width: 70%;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: 0.5px solid #333;
+    border-radius: 5px;
+}
+#contact .form-group textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact .contact-btn{
+    width: 70%;
+    margin-left: 10%;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background: #3693ff;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#contact .contact-btn:hover{
+    background: #0378ff;
+}
+#contact .form-container{
+    position: relative;
+}
+#contact .mail-icon{
+    font-size: 4rem;
+    background: #3693ff;
+    color: #fff;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    border-radius: 40%;
+    position: absolute;
+    top: -7%;
+    left: 45%;
+}
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 0.5rem;
+    }
+    #showcase{
+        width: 100%;
+    }
+#aboutme {
+    font-size: 13px;
+    margin-left: 3%;
+
+}
+#aboutme h3{
+    font-size: 24px;
+}
+
+    #navbar{
+ 
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #fff;
+}
+    #navbar ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    #navbar h1 a{
+        font-size: 0%;
+      
+    }
+    #navbar li a{
+        padding: 1rem;
+        font-size: 0.7rem;
+        margin-left: 0%;
+        border-radius: 3px;
+    }    
+    
+    .main .btn{
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+    }
+    #navbar li a:hover{
+       padding: 3%;
+
+        
+    
+    }
+    #contact .form-box{
+        background: dimgrey;
+        background-position: center;
+        padding: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 2px 2px 5px #d1d1d1;
+        border-radius: 50px;
+        max-width: 500px;
+    
+    }
+    #contact .form-group label{
+        display: block;
+        margin-bottom: 0.5;
+        width: 50%;
+        margin-left: 0%;
+        font-size: 1.1rem;
+    
+    }
+    #contact .form-group input,
+    #contact .form-group textarea{
+        width: 90%;
+        margin-left: 0%;
+        font-size: 1.3rem;
+        padding: 1rem;
+        border: 0.5px solid #333;
+        border-radius: 5px;
+    }
+    #contact .form-group textarea{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #contact .contact-btn{
+        width: 90%;
+        margin-left: 0%;
+        display: inline-block;
+        padding: 1rem 3rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        background: #3693ff;
+        color: #fff;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+   
+}
+
+@media all and (max-width:600px){
+    #showcase{
+        width: 100%;
+    }
+    
+}

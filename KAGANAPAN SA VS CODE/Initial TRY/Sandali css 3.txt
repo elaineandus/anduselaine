@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    color: #333;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+header{
+	min-height: 100vh;
+	background: url(img/pic1.jpg) center/cover no-repeat fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+}
+.navbar{
+	background:rgba(10, 9, 9, 0.768);
+	padding: 1.5rem;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.navbar-nav{
+	text-align: center;
+	padding: 0.8rem 0 0.2rem 0;
+}
+.navbar-nav a{
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.4rem 0.1rem;
+	letter-spacing: 3px;
+	transition: 0.1s ease;
+}
+.navbar-nav a:hover{
+	color:coral;
+}
+.navbar .sociallinks{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.navbar .sociallinks a{
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.navbar .sociallinks a:hover{
+	color: coral;
+}
+.banner{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+.banner-title{
+	font-size: 3rem;
+	line-height: 1.2;
+}
+.container h1{
+	font-size: 4.5rem;
+	line-height: 75px;
+	text-transform: uppercase;	
+	animation: head 0.7s linear 1;
+}
+.banner .container p{
+	padding: 1rem 1rem 2rem 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	word-spacing: 2px;
+	animation: head 0.7s linear forwards 1;
+	animation-delay: 1s;
+}
+.banner .container a{
+	padding: 0 0.5rem 0.5rem 0;
+	border-bottom: 2px solid #474554;
+	font-weight: 400;
+	font-size: 1.3rem;
+	color:#fff;
+	text-decoration: none;
+	
+}
+.banner .container a:hover{
+	color: coral;
+}
+
+@keyframes head {
+	0%{
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+/* --------------- ABOUT SECTION ---------- */
+
+.section{
+	min-height: 100vh;
+	padding: 1rem 1rem;
+	background: linear-gradient(90deg,#277697,#BCAFBC,#277697);	
+}
+.section-a .container h1{
+	font-size: 3rem;
+	line-height: 2em;
+	color: rgb(0, 0, 0);
+	padding: 0 0 0 1rem;
+	text-align: center;
+}
+.section img{
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+.container{
+	max-width: 960px;
+	padding: 0 0 0 0;
+}
+.section .container p{
+	color:rgb(0, 0, 0);
+	text-align: justify;
+}
+
+/* ----------- SKILL SECTION ----------- */
+.section-b{
+	background:#111111;
+	color:rgb(255, 255, 255);
+}
+.section-b h1{
+	font-size: 3rem;
+	line-height: 2em;
+	padding: 0 0 0 1rem;
+	text-align: center;
+}
+.skillbars{
+	padding-top: 39px;
+	padding-left: 30px;
+	padding-right: 30px;
+	min-width: 70vh;
+	min-height: 68vh;
+	background: rgb(63, 60, 60);
+	border-radius: 10px;
+}
+.skillbars .bar{
+	margin: 20px 0;
+	margin-top: 10px;
+}
+.skillbars .bar .container{
+	margin-bottom: 10px;
+}
+.skillbars .bar .container span{
+	font-weight: 500;
+    font-size: 17px;
+}
+.skillbars .bar .barline{
+	height: 10px;
+	width: 100%;
+	background: #ffffff;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: inset 0 1px 1px rgba(85, 9, 9, 0.05)gba(255,255,255,0.8);
+}
+.bar .barline span{
+	height: 100%;
+	position: absolute;
+	background: #131324;
+}
+.bar .barline.html span{
+	width: 70%;
+}
+.bar .barline.css span{
+	width: 65%;
+}
+.bar .barline.c span{
+	width: 60%;
+}
+.bar .barline.cplusplus span{
+	width: 17%;
+}
+.bar .barline.java span{
+	width: 20%;
+}
+.barline span::after{
+	position: absolute;
+	top: -28px;
+	right: 0;
+	font-weight: 500;
+	background: #000;
+	color: #fff;
+	padding: 1px 8px;
+	font-size: 12px;
+}
+.barline.html span::after{
+	content: "70%";
+}
+.barline.css span::after{
+	content: "65%";
+}
+.barline.c span::after{
+	content: "60%";
+}
+.barline.cplusplus span::after{
+	content: "17%";
+}
+.barline.java span::after{
+	content: "20%";
+}
+/* ----------- PROJECT SECTION ----------- */
+.section-c{
+	min-height: 200vh;
+	padding: 0 1rem 0 1rem;
+	background: linear-gradient(90deg,#277697,#BCAFBC,#277697);	
+	color: rgb(0, 0, 0);
+}
+.section-c h1{
+	font-size: 3rem;
+	line-height: 2em;
+	padding: 0 0 0 1rem;
+	text-align: center;
+}
+.projects-content{
+	min-height: 80%;
+	width: 100%;
+	display: inline;
+	flex-wrap: wrap;
+}
+.project{
+	min-width: 23vh;
+	min-height: 25vh;
+	margin: 0.1rem 1rem;
+	position: relative;
+}
+.projects{
+	height: 120vh;
+}
+.project img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.spans{
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.spans a{
+	color: #FFDDC7;
+}
+
+/* ----------- CONTACT SECTION ----------- */
+.section-d{
+	min-height: 100vh;
+	background: url(img/typing4.jpg) center/cover no-repeat fixed;
+	background-size: cover;
+	color:rgb(255, 255, 255);
+}
+.section-d h1{
+	font-size: 3rem;
+	line-height: 2em;
+	padding: 0 0 0 1rem;
+	text-align: center;
+}
+.form{
+	height: 300px;
+	padding-top: 25px;
+}	
+.contactboxinside{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 10% 10% 10%;;
+	background-color:  rgba(0,0,0,.5);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px;
+	height: 48vh;
+	border-radius: 15px;
+}
+.contactinput{
+	padding: 8px;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+}
+.contactcenter{
+	padding: 5px;
+	width: 100%;
+	border-style: none;
+}
+.fa-user,.fa-envelope{
+	width: 30px;
+	background: #313030a8;
+	padding: 5px;
+}
+.bottom-contact{
+	text-align: center;
+}
+button.contactsubmit{
+	background-color: #313030a8;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	border-radius: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+.boxdetails{
+	background-color:  rgba(0,0,0,.5);
+	color: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	margin: 10% 10% 10% 10%;
+	padding: 1% 10% 0 10%;
+	height: 47vh;
+	border-radius: 15px;
+}
+.wrapper{
+	display: grid;
+	grid-auto-rows: minmax(70px, auto);
+	grid-gap: 5px;
+	line-height: 1.5;
+}
+.secondboxcontent p{
+	font-size: 14px;
+	font-style: italic;
+	width: 100%;
+}
+.linetwo h3, .linefour h3, .linesix h3{
+	color: rgb(255, 249, 249);
+}
+.lineone{
+  	grid-column: 3;
+	grid-row: 1;
+	text-align: center;
+}
+.linetwo{ 
+	grid-column:4;
+	grid-row: 1 / 2;
+	padding-left:20px;
+}
+.linethree{
+  	grid-column: 4/3;
+    grid-row: 2 / 3;
+    text-align: center;
+    padding-top: 7px;
+}
+.linefour{
+    grid-column: 4;
+    grid-row: 2/3;
+    padding-left:20px;
+    padding-top: 7px;
+}
+.linefive{
+    grid-column: 3;
+    grid-row: 3/4;
+    text-align: center;
+}
+.linesix{
+ 	grid-column: 4/6;
+    grid-row: 3/3;
+    padding-left:20px;
+}
+
+/* ----------- FOOTER SECTION ----------- */
+footer{
+	width: 100%;
+	height: 20vh;
+	background:rgba(10, 9, 9, 0.96);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+footer h5{
+	font-size: 0.95rem;
+	letter-spacing: 1px;
+	color: #F8F8F8;
+	padding: 5px;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0.5rem;
+	text-align: center;
+}
+footer ul li a{
+	font-weight: 500;
+	color: #d1cabf;
+	text-decoration: none;
+}
+
+
+/* ----------- MEDIA QUERIES ----------- */
+
+@media screen and (min-width:600px){
+	.navbar-nav a{
+		padding-right: 1.2rem;
+		padding-left: 1.2rem;
+	}
+	.banner-title{
+		font-size: 5rem;
+		line-height: 1.2;
+	}
+}
+
+@media screen and (min-width:768px){
+	.navbar .container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.navbar-brand{
+		padding-left: 1.5rem;
+	}
+	.container h1{
+		display: flex;
+		justify-content: left;
+		margin: 4.5rem 0 0 1rem;
+	}
+	.banner .container p{
+		text-align: left;
+		font-size: 1.35rem;
+		max-width: 60%;
+		line-height: 30px;
+		margin: 1.5rem 0 0.1rem 0.3rem;
+	}
+	
+	/*-------------- ABOUT SECTION ------------*/
+	.section{
+		min-height: 100vh;
+	}
+	.section-a .container h1{
+		margin: 0;
+		font-size: 1rem;
+		font-size: 2.5rem;
+		padding-left: 23.5rem;
+		padding-top: -0.5rem;
+	}
+	.container p{
+		margin-left: 7.5rem;
+		margin-right: 7.5rem;
+	}
+	.section img{
+		width: 200px;
+		height: 290px;
+		margin-left: 23.5rem;
+		border-radius: 10%;
+	}
+
+	/*---------- SKILL SECTION ----------*/ 
+	.skillbars{
+		padding: 25px 30px;
+		width: 600px;
+		background: rgb(63, 60, 60);
+		border-radius: 10px;
+		margin-left: 10rem
+	}
+	.skillbars .bar{
+		margin-top: 33px;
+		margin-bottom: 15px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	
+	/*---------- PROJECT SECTION ----------*/
+	.section-c h1{
+		padding-top: 1rem;
+	}
+	.projects-content{
+		min-height: 80%;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.project{
+		width: 28%;
+		height: 23vh;
+		margin: 1rem 1.4rem;
+		position: relative;
+	}
+	.project img{
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		padding-left: 0.2rem;
+		margin-left: 1rem;
+	}
+	.spans{
+		position: absolute;
+		font-size: 1rem;
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		margin-left: 1rem;
+		padding-left: 0.2rem;
+	}
+	
+	/*-------------- CONTACT SECTION ------------*/
+	.contactboxinside{
+		margin-left: 10%;
+		margin-right: 50%;
+	}
+	.boxdetails{
+		margin-top: -300px;
+		margin-left: 60%;
+		margin-right: 10%;
+		padding: 30px 20px 12px 20px;
+	}
+	/*-------------- FOOTER SECTION ------------*/
+	footer h5{
+		font-size: 1.5rem;
+	}
+	footer ul li{
+		margin: 1rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
+
+CSS Measurements
+there are two types of unit of measurements
+
+1. Absolute units/measurement 
+• px
+
+2. Relative units/measurement
+• em - relative to parent element font size
+• rem - relative to root element which is the html tag 
+• % - relative to parent element
+• vw - relative to viewport's width
+• vh - relative to viewport's height
+
+1em = 16px
+2em = 32px
+0.5em = 8px
+
+https://bagasonakimdianneact03.000webhostapp.com/about.html
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+view-source:https://armand1stproj.netlify.app/?name=&email=s
+https://stackoverflow.com/questions/49164515/bootstrap-navbar-and-containers-exceed-overflow-the-max-width-assigned
+https://stackoverflow.com/questions/13550541/media-min-width-max-width?fbclid=IwAR2DiG0BF4MrxqJ4V-bpEERnkryKr5Q6BnQNiABXNWrapBBGis03TvrcS0Q
+
+
+margin - section of margin can be specified either in pixels or even percentage
+
+percentage - preferrable to ensure the margin, and they dont get larger than the content when we scale it down on a much more smaller devices like mobile phones 
+
+so using percentage in margin ng isang width of the device, yung margin natin will remain relative sa size ng content which is at most always preferrable
+
+padding - specified either in pixels, em or even percentage, just like margin it is always preferrable to use em or percentage
+
+em - relative to the heading's parent
+
+rem - relative to the root or html size
+
+Viewport units - represent the percentage of the current browser viewport, calculates
+as percentage of browser's current viewport size
+
+Percentage units - calculated as the percentage of the parent element, which later on will be different than the viewport size
+
+vw - 1, this is equal to 1% of the viewport's width, size of 4px
+
+vw - 50, this is equal to 50% of the viewport's width, size of 24px
+
+width - horizontal (x)
+height - vertical (y)
+
+height is relative to the y axis
+
+vh - 1, this is equal to 1% of the viewport's height, size of 8px
+
+vw - 50, this is equal to 50% of the viewport's height, size of 400px
+
+
+small devices portrait (tablets/large phones)
+- 600px and up
+
+minimum width 600px (tablets)
+
+medium devices, landscape 
+- 768px and up
+
+minimum width 768px
+
+large devices (laptops/desktops)
+- 992px and up
+
+minimum width 992px
+
+extra large devices (large laptops/ large desktops)
+- 1200px and up
+
+minimum width 1200px
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+

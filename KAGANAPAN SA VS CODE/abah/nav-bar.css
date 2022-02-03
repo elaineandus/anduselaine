@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: fleX;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    cursor: pointer;
+    width: 65px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #56425E;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover{
+    color: #E86F62;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        padding: 30px 50px;
+    }
+    header ul{
+        display: inline-block;
+    }
+    header ul li{
+        text-align: right;
+    }
+}

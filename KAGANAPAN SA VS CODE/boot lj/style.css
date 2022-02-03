@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.4em;
+    background:  #EADEB8;
+}
+
+/* --------- Navigation and Banner Start-------- */
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url(images/pexels-fauxels-3183132.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navbar-nav{
+    padding:2px;
+    font-weight:400;
+}
+#navbarSupportedContent ul .nav-item .nav-link:hover {
+    color: #C56824;
+}
+/* --------- Navigation and Banner End-------- */
+
+/* --------- About Start-------- */
+.title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.main-title{
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+.main-title span{
+    color: #ffff80;
+    font-weight: 900;
+}
+.title p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 1.2;
+}
+
+/* start of about page */
+#aboutpage .post-heading h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-top:20px;
+}
+#aboutpage .post-heading span{
+    color:#C56824;
+}
+.about{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: #EADEB8;
+    padding-top: 5px;
+    padding-bottom:10px;
+}
+.about p{
+    width:70%;
+}
+.about h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top:15px;
+}
+.about span{
+    color: #C56824;
+    font-family: 600;
+}
+/* --------- About End -------- */
+
+/* ---------- Gallery Start---------- */
+#gallerypage .post-heading h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 20px 0 20px;
+}
+.content .headingcontent{
+    width:40%;
+    padding-bottom:50px;
+}
+.content .headingcontent h3{
+        font-size: 3em;
+        font-weight: bolder;
+        color: #1a1a1a;
+        text-transform: uppercase;
+        padding-bottom:10px;
+        line-height: 1.2;
+        border-top: 3px solid #595959;
+}
+.content .headingcontent h3 span{
+    font-weight: 100;
+}
+.content .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content .box .columns{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.content .box .columns img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+/* ---------- Gallery End---------- */
+
+/* ---------- Skill Start ------------ */
+#skillpage .post-heading h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#skillpage .post-heading span{
+    color:#C56824;
+}
+.skill{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: #EADEB8;
+    padding-top: 5px;
+    padding-bottom:10px;
+}
+.skill .headingskill{
+    width: 40%;
+    padding-bottom: 50px;
+}
+.skill .headingskill h3{
+    margin-top: 2rem;
+    font-size: 3em;
+    font-weight: bolder;
+    color:#333333;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    line-height: 1.2;
+    border-top: 3px solid #fff;
+    margin: 40px 20px 0 20px;
+    text-align: center;
+}
+.skill .headingskill h3 span{
+    font-weight: 100;
+}
+#skillpage h5{
+    color: #C56824;
+    font-weight: 600;
+}
+
+#progress .post-heading h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top:25px;
+}
+#prog1{
+    background: #C56824;
+}
+#progback1{
+    background: #A09F57;
+}
+#prog2{
+    background: #C56824;
+}
+#progback2{
+    background: #A09F57;
+}
+#prog3{
+    background: #C56824;
+}
+#progback3{
+    background: #A09F57;
+}
+#prog4{
+    background: #C56824;
+}
+#progback4{
+    background: #A09F57;
+}
+#prog5{
+    background: #C56824;
+}
+#progback5{
+    background: #A09F57;
+}
+#prog6{
+    background: #C56824;
+}
+#progback6{
+    background: #A09F57;
+}
+#prog7{
+    background: #C56824;
+}
+#progback7{
+    background: #A09F57;
+}
+/* ---------- Skill End ------------ */
+
+/* ---------- Project Start ---------- */
+#projectpage .post-heading h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top:15px;
+}
+#projectpage .post-heading span{
+    color:#C56824;
+}
+.projects{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EADEB8;
+    padding-top: 5px;
+    padding-bottom:40px;
+}
+.projects .headingprojects{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.projects .headingprojects h3{
+    margin-top: 2rem;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #4d0000;
+    padding-bottom: 10px;
+    line-height: 1.2;
+    border-top: 3px solid #595959;
+    margin: 40px 20px 0 20px;
+}
+.projects .headingprojects h3 span{
+    font-weight: 100;
+}
+#cardproj .btn{
+    background: #A09F57;
+    color:#fff;
+}
+#cardproj .btn:hover{
+    background: #C56824;
+}
+#cardproj h5{
+    color:#1a1a1a;
+    font-weight:500;
+}
+/* ---------- Project End ---------- */
+
+/* ---------- Contact Start ---------- */
+#contactpage .post-heading h3 {
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#contactpage .post-heading span{
+    color:#C56824;
+}
+#card-body-bg {
+    background-color: #EADEB8;;
+}
+#contactpage .btn{
+    background-color: #A09F57;
+    color:#fff;
+}
+#contactpage .btn:hover{
+    background-color: #C56824;
+}
+/* ---------- Contact End ---------- */
+
+/* -----------Footer Start------------ */
+footer{
+    background-color: #C56824;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top:150px;
+}
+.socmed-links{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 1.4rem;
+}
+.socmed-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+.socmed-links a:hover{
+    transform: scale(1.2);
+}
+/* -----------Footer End ----------------- */
+
+
+/* -----------Media Query ---------------- */
+/* for the responsiveness */
+@media screen and (min-width:600px){
+    .main-title{
+        font-size: 5 rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .main-title{
+        font-size: 5 rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .content .box{
+        flex-direction: column;
+    }
+    .content .box .columns{
+        width:100%;
+    }
+    .about .about-box{
+        flex-direction: column;
+    }
+    .about .about-box .columns{
+        width:100%;
+    }
+    .about .about-box .columns a{
+        width:100%;
+    }
+    .skill .skill-box{
+        flex-direction: column;
+    }
+    .skill .skill-box .skill-columns{
+        width:100%;
+    }
+    .main-title{
+        font-size: 6 rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .content .headingcontent{
+        width: 100%;
+    }
+    .content .headingcontent h3{
+        font-size: 2em;
+    }
+    .about .headingabout{
+        width: 100%;
+    }
+    .about .headingabout h3{
+        font-size:2em;
+    }
+    .skill .headingskill{
+        width: 100%;
+    }
+    .skill .headingskill h3{
+        font-size:2em;
+    }
+    .projects .headingprojects{
+        width: 100%;
+    }
+    .projects .headingprojects h3{
+        font-size:2em;
+    }
+    .contact .headingcontact{
+        width: 100%;
+    }
+    .contact .headingcontact h3{
+        font-size:2em;
+    }
+    .title p{
+        font-size: 1em;
+        font-weight: 200;
+    }
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .main-title{
+        font-size: 5 rem;
+    }
+}

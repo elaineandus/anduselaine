@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.4;
+    color: #3F3E39;
+}
+.container{
+    max-width: 3320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(blackbackground.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.tophead{
+    height: auto;
+    background: #f4f4f4;
+    text-align: center;
+}
+.tophead h1{
+    color: #3F3E39;
+    font-size: 1.2rem;
+}
+.topnav{
+    background: rgba(0, 0,0, 0.4);
+    padding: 1rem;
+}
+#logo{
+    height: auto;
+    width: 140px;
+    display: block;
+}
+.navlinks{
+    text-align: center;
+    padding: 0.8rem 0 0.2rem 0;
+}
+.navlinks a{
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 3px;
+    padding: 0.4rem 0.1rem;
+}
+.navlinks a:hover{
+    background-color: #f4f4f4;
+    color: #3F3E39;
+    border-radius: 5px;
+}
+.center{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4f4f4;
+}
+.center h2{
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.2;
+}
+.center p{
+    padding: 1rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+.buttons button{
+    width: 15rem;
+    height: 3.3rem;
+    background: #3F3E39;
+    border: 1px solid #3F3E39;
+    border-radius: 25px;
+}
+.buttons a{
+    font-size: 1rem;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.buttons button:hover{
+    background: goldenrod;
+    color: #3F3E39;
+}
+.icons{
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+.icons .fa{
+    letter-spacing: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: 1rem;
+    margin: 0.4rem;
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: solid;
+    background: rgba(0, 0,0, 0.4);
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+}
+.fa-facebook:hover {
+    border-color: #308AE5;
+    color: #308AE5;
+}
+.fa-instagram:hover {
+    border-color: #BD23CF;
+    color: #BD23CF;
+}
+.fa-google:hover {
+    border-color: #E04525;
+    color: #E04525;
+}
+/******ABOUT PAGE******/
+.about{
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.idpage{
+    background: #fff;
+    margin: 2rem 4rem;
+    width: 35%;
+}
+#mepicture{
+    height: auto;
+    width: 30vw;
+}
+.textbox{
+    background: goldenrod;
+    width: 70%;
+}
+.aboutpage{
+    padding: 4rem 7rem;
+}
+.aboutpage h2{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+.aboutpage p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.aboutpage p span{
+    color: #f4f4f4;
+}
+/******SKILL PAGE******/
+.skill{
+    background: #3F3E39;
+    justify-content: center;
+    height: auto;
+}
+#skilltext{
+    padding: 1rem 2rem;
+    text-align: center;
+}
+#skilltext h2{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: goldenrod;
+    font-weight: 700;
+    line-height: 2rem;
+}
+#skilltext p{
+    padding: 2rem 15rem;
+    font-size: 1.5rem;
+    color: #f4f4f4;
+}
+.skillcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.card{
+    padding: 2rem 2rem;
+    width: 22vw;
+    height: auto;
+    color: #f4f4f4;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0,0, 0);
+    box-shadow: 1px 3px 8px #f4f4f4;
+    border-radius: 15px;
+    line-height: 1.5rem;
+}
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#symbols{
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: goldenrod;
+}
+.card p{
+    font-size: 1.2rem;
+}
+.card ul{
+    list-style: none;
+}
+/******PROJECT PAGE******/
+.project{
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3));
+    justify-content: center;
+    min-height: auto;
+}
+.projtext{
+    padding-top: 1rem 2rem;
+    text-align: center;
+}
+.projtext h2{
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: goldenrod;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.projtext p{
+    padding: 2rem 15rem;
+    font-size: 1.5rem;
+    color: #3F3E39;
+}
+.projcard{
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.pcard{
+    padding: 1rem;
+    width: 20vw;
+    height: 52vh;
+    color: #3F3E39;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0,0, 0);
+    box-shadow: 1px 3px 8px #3F3E39;
+    border-radius: 15px;
+    line-height: 1.5rem;
+}
+#cpusched{
+    align-items: center;
+    width: 20vw;
+    height: 13rem;
+}
+.pcard h3{
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.pcard p{
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+/******CONTACT PAGE******/
+.contacts{
+    background: rgb(32, 218, 63);
+    justify-content: center;
+    min-height: auto;
+}
+.contactext{
+    padding-top: 4rem;
+    text-align: center;
+}
+.contactext h2{
+    font-size: 3rem;
+    color: #3F3E39;
+    font-weight: 800;
+    line-height: 2rem;
+}
+.contactext p{
+    padding: 2rem 20rem;
+    font-size: 1.5rem;
+    color: #3F3E39;
+}
+#contactscard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.ccard{
+    margin-right: 3rem;
+    padding: 1rem;
+    width: 30vw;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background: #3F3E39;
+    box-shadow: 1px 3px 8px #3F3E39;
+    border-radius: 15px;
+    line-height: 1.5rem;
+}
+.ccard h3{
+    color: goldenrod;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ccard ul{
+    list-style: none;
+    line-height: 2.5rem;
+    color: #f4f4f4;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+}
+.ccard2{
+    margin-left: 3rem;
+    padding: 1rem;
+    width: 30vw;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background: goldenrod;
+    box-shadow: 1px 3px 8px #3F3E39;
+    border-radius: 15px;
+    line-height: 1.5rem;
+}
+.ccard2 h3{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ccard2 a{
+    letter-spacing: 1rem;
+    padding: 1.3rem;
+    font-size: 1.4rem;
+    width: 1.3rem;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: solid;
+    background: goldenrod;
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+}
+.fa-facebook:hover {
+    border-color: #308AE5;
+    color: #308AE5;
+}
+.fa-instagram:hover {
+    border-color: #BD23CF;
+    color: #BD23CF;
+}
+.fa-google:hover {
+    border-color: #E04525;
+    color: #E04525;
+}
+#footer{
+    height: 15vh;
+    background: #3F3E39;
+}
+#footer p{
+    padding-top: 2.5rem;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:650px){
+    .navlinks a{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media screen and (min-width:768px ){
+    .topnav .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width:1100px){
+    .topnav{
+        padding: 1rem;
+    }
+    .buttons button{
+        width: 10rem;
+        height: 3rem;
+        background: #3F3E39;
+        border: 1px solid #3F3E39;
+        border-radius: 25px;
+    }
+    .buttons a{
+        font-size: 0.7rem;
+        color: #f4f4f4;
+        text-decoration: none;
+    }
+    .aboutpage{
+        padding: 2rem 4rem;
+    }
+    .aboutpage h2{
+        font-size: 2.3rem;
+    }
+    .aboutpage p{
+        font-size: 1.2rem;
+    }
+    #skilltext h2{
+        font-size: 2.3rem;
+    }
+    #skilltext p{
+        padding: 2rem 5rem;
+        font-size: 1.2rem;
+    }
+    .card{
+        height: auto;
+    }
+    .card h3{
+        font-size: 1.3rem;
+    }
+    .card p{
+        font-size: 1rem;
+    }
+    .projtext h2{
+        font-size: 2.3rem;
+    }
+    .projtext p{
+        padding: 2rem 5rem;
+        font-size: 1.2rem;
+    }
+    .pcard{
+        height: auto;
+    }
+    .pcard h3{
+        font-size: 1.3rem;
+    }
+    .pcard p{
+        font-size: 1rem;
+    }
+    .contactext h2{
+        font-size: 2.3rem;
+    }
+    .contactext p{
+        padding: 2rem 5rem;
+        font-size: 1.2rem;
+    }
+    .ccard{
+        height: auto;
+    }
+    .ccard h3{
+        font-size: 1.3rem;
+    }
+    .ccard ul{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:850px){
+    #logo{
+        margin: auto;
+        width: 100px;
+    }
+    .navlinks a{
+        font-size: 1rem;
+    }
+    .center h2{
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .center p{
+        font-size: 1rem;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .idpage{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .textbox{
+        width: auto;
+        height: auto;
+    }    
+    #skilltext p{
+        padding: 2rem 5rem;
+    }
+    .skillcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 2rem;
+        width: 60vw;
+    }
+    .projtext p{
+        padding: 2rem 5rem;
+    }
+    .projcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .pcard{
+        margin: 2rem;
+        width: 40vw;
+    }
+    .contactext p{
+        padding: 2rem 5rem;
+    }
+    #contactscard{
+        display: flex;
+        flex-direction: column;
+    }
+    .ccard{
+        margin: 2rem;
+        width: 60vw;
+    }
+    .ccard2{
+        margin: 2rem;
+        width: 60vw;
+    }
+    #footer p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:400px){
+    .navlinks a{
+        display: block;
+        text-align: center;
+    }
+}
+    

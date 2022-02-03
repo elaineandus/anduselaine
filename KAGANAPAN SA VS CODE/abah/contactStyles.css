@@ -1,0 +1,80 @@
+body{
+    background-color: #FFDFCA;
+}
+
+#contact-splash-screen{
+    height: 60vh;
+    display: flex;
+    background-image: url("./Resources/Background-05.svg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact-splash-screen-logo{
+    width: 550px;
+    animation: jumping 1.7s ease-in backwards infinite;
+}
+
+@keyframes jumping{
+    0%{
+        transform: translateY(0px)
+    }
+
+    50%{
+        transform: translate(15px, 15px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#socials-section{
+    padding: 100px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#socials-section img{
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 5px 0;
+}
+
+#socials-section img:hover{
+    transform: scale(1.08);
+}
+
+.contact-title{
+    color: #56425E;
+    font-size: 28px;
+    text-align: center;
+}
+  
+.contact-divider{
+    width: 150px;
+    height: 3px;
+    background-color: #56425E;
+    display: inline-block;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .contact-splash-screen-logo{
+        width: 85%;
+    }
+    #socials-section img{
+        width: 100%;
+    }
+    #contact-splash-screen{
+        background-position: 21% 100%;
+    }
+}

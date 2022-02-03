@@ -1,0 +1,23 @@
+
+body{
+    background-image: url(./imgs/me4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.todo-img img{
+    display: block;
+    margin-left: 250px;
+    width: 30%;
+    margin-top: 250px;
+   
+}
+
+@media screen and (max-width:768px) {
+    .todo-img img{
+    width: 80%;
+    margin-left: 50px;
+    }
+    
+}

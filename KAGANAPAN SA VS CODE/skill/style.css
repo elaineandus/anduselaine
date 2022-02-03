@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #6665ee;
+}
+
+.skillbars{
+  padding: 25px 30px;
+  width: 600px;
+  background: rgb(99, 98, 36);
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skillbars .bar{
+	margin: 20px 0;
+  }
+.skillbars .bar:first-child{
+  margin-top: 0px;
+}
+.skillbars .bar .container{
+  margin-bottom: 5px;
+}
+.skillbars .bar .container span{
+  font-weight: 500;
+  font-size: 17px;
+  /* opacity: 0; */
+  /* animation: showText 0.5s 1s linear forwards; */
+}
+/* @keyframes showText {
+  100%{
+    opacity: 1;
+  }
+} */
+.skillbars .bar .barline{
+  height: 10px;
+  width: 100%;
+  background: #960707;
+  position: relative;
+  /* transform: scaleX(0);
+  transform-origin: left; */
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+/*   animation: animate 1s cubic-bezier(1,0,0.5,1) forwards; */
+}
+/* @keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+} */
+.bar .barline span{
+  height: 100%;
+  position: absolute;
+  /* border-radius: 70px; */
+ /*  transform: scaleX(0);
+  transform-origin: left; */
+  background: #6665ee;
+  /* animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards; */
+}
+.bar .barline.html span{
+  width: 90%;
+}
+.bar .barline.css span{
+  width: 60%;
+}
+.bar .barline.jquery span{
+  width: 85%;
+}
+.bar .barline.python span{
+  width: 50%;
+}
+.bar .barline.mysql span{
+  width: 75%;
+}
+/* .progress-line span::before{
+	position: absolute;
+	content: "";
+	top: -10px;
+	right: 0;
+	height: 0;
+	width: 0;
+	border: 7px solid transparent;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-color: #000;
+	opacity: 0;
+	animation: showText2 0.5s 1.5s linear forwards;
+  } */
+.barline span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  /* border-radius: 3px; */
+  /* opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards; */
+}
+
+  .barline.html span::after{
+	content: "90%";
+  }
+  .barline.css span::after{
+	content: "60%";
+  }
+  .barline.jquery span::after{
+	content: "85%";
+  }
+  .barline.python span::after{
+	content: "50%";
+  }
+  .barline.mysql span::after{
+	content: "75%";
+  }
