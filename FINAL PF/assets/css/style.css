@@ -379,17 +379,18 @@ section .container {
   justify-content:space-evenly;
 }
 .forresume button {
-  width: 165px;
+  width: 172px;
   padding: 10px 20px;
   background-color: #111111;
   border: 1px solid #fff;
-  border-radius: 15px;
+  border-radius: 20px;
   margin-bottom: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
 .forresume button:hover {
-  background-color:#191919;
+  background-color:#181717;
+  letter-spacing: 0.9px;
 }
 .forresume button a {
   text-decoration: none;
