@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="project.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i> BITeCREATE </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#product">food products</a>
+        <a href="#contact">contact us</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Welcome</h3>
+        <p>Please sign in with your account.</p>
+        <input type="text" placeholder="Username" class="box">
+        <input type="password" placeholder="Password" class="box">
+        <p><a href="#">Forgot Password?</a></p>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+        <input type="submit" value="Login" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Get your <span>favorite dishes</span> only here at <span>BITeCREATE</span></h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo officiis rem itaque. Adipisci aut facere, ut molestias nostrum iste voluptatibus quisquam impedit eos.</p>
+        <a href="#product" class="btn">see more</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- product section starts  -->
+
+<section class="product" id="product">
+
+    <h1 class="heading"> food <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/menudo.jpg" alt="">
+            <h3>Menudo</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/nilagangbaka.jpg" alt="">
+            <h3>Nilagang Baka</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sinigangnahipon.jpg" alt="">
+            <h3>Sinigang na Hipon</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/chopseuy.jpg" alt="">
+            <h3>Chop Seuy</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/pinakbet.jpg" alt="">
+            <h3>Pinakbet</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/ginataangmanok.jpg" alt="">
+            <h3>Ginataang Manok</h3>
+            <div class="price"> ₱120.00 </div>
+            <div class="feature">
+                <p>Serving Size: 6 people<br>
+                Calories: 304 per serving</p>
+            </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- product section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer" id="contact">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> BITeCREATE <i class="fas fa-utensils"></i> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +(8)282-581-0 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> elaine.bitcreate@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 4856 Sta. Monica St. Manila </a>
+        </div>
+
+        <div class="box">
+            <h3>Social Media</h3>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="credit"> Copyright ©2022 <span> BITeCREATE </span> | All Rights Reserved </div>
+
+    <p>Created by: Elaine S. Andus </p>
+    <p>Tools Used: Visual Studio, Pexels, Font Awesome </p>
+    <p>Languages: HTML, JavaScript, CSS </p>
+
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="project.js"></script>
+
+</body>
+</html>
